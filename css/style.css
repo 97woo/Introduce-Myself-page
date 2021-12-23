@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@300;400;500&display=swap');
+*{ 
+  font-family: 'Nanum Pen Script', cursive;
+    color: #ffffff;
+	
+}
+
+a {
+	text-decoration: none;
+
+}
+
+/* 상단바 */
+
+.menu * {
+    display: inline;
+	font-size: 50px;
+}
+
+.menu li {
+    margin: 30px;
+}
+
+.menu li a {
+    
+
+}
+
+.menu ul {
+    padding-left: 0px;
+}
+
+.menu {
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+} 
+/*메인틀*/
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #D3E4CD;
+	height: 1070px;
+	font-size: 50px;
+	
+}
+
+
+.main:nth-child(1) {
+	background-color: #698474;
+}
+.main:nth-child(2) {
+	background-color: #889E81;  
+}
+.main:nth-child(3) {
+	background-color: #BAC7A7;  
+}
+.main:nth-child(4) {
+	background-color: #E5E4CC;  
+}
+/*1페이지*/
+.one-p {
+		text-align: center;
+		padding-top: 180px;
+		padding-bottom: 130px;
+}
+
+.one-p img {
+	 margin-top: 60px;
+     width: 500px;
+	 height: 500px;
+     border-radius: 30%;
+}
+
+.one-p p{
+        margin-top: 30px;
+		font-weight: 550;
+		
+}
+/*2페이지*/
+.two-p {
+    font-size: 20px;
+
+}
+.two-p img {
+	width: 450px;
+	height: 500px;
+	margin-top: 300px;
+   
+	}
+.text {
+	font-size: 30px;
+	float: right;
+    margin-top: 35px;
+    padding-left: 50px;
+	margin-top: 400px;
+	
+	
+}
+/*3페이지*/
+
+.three-p {
+   font-size: 35px;
+   margin-top: 330px;
+   display: flex;
+   text-align: center;
+	
+}
+.love {
+        text-align: center;
+        display: block;
+}
+.three-p img {
+	width: 350px;
+    height: 350px;
+    margin-left: 60px;
+	text-align: center;
+}
+.three-p i {
+	 display: block;
+	 margin-top: 60px;
+	 text-align: center;
+}
+.love-text {
+	text-align: center;
+	margin-left: 10px;
+	
+}
+
+
+
+/*4페이지*/
+.four-p {
+       text-align: center;
+       align-items: center;
+	  
+}
+.four-p img {
+	width: 1000px;
+    height: 500px;
+    text-align: center;
+	margin-top: 200px;
+	
+}
+.sns {
+    margin-top: 80px;
+    font-size: 50px;
+    margin: 35px;
+	 display: block;
+}
